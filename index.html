@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Players News</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-futbol"></i>
+                <span>SportsNews</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#news" class="nav-link">Latest News</a></li>
+                <li><a href="#players" class="nav-link">Players</a></li>
+                <li><a href="#teams" class="nav-link">Teams</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Stay Updated with Sports Players News</h1>
+            <p>Get the latest updates, transfers, injuries, and achievements from your favorite athletes</p>
+            <button class="cta-button">Explore News</button>
+        </div>
+        <div class="hero-image">
+            <div class="floating-cards">
+                <div class="card card-1">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop&crop=face" alt="Player 1">
+                    <div class="card-content">
+                        <h3>Lionel Messi</h3>
+                        <p>Inter Miami CF</p>
+                    </div>
+                </div>
+                <div class="card card-2">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Player 2">
+                    <div class="card-content">
+                        <h3>Cristiano Ronaldo</h3>
+                        <p>Al Nassr</p>
+                    </div>
+                </div>
+                <div class="card card-3">
+                    <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=150&h=150&fit=crop&crop=face" alt="Player 3">
+                    <div class="card-content">
+                        <h3>LeBron James</h3>
+                        <p>Los Angeles Lakers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article class="news-card featured">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop" alt="Messi News">
+                        <div class="news-category">Transfer News</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Messi's Impact on Inter Miami: A Season Review</h3>
+                        <p>Lionel Messi has transformed Inter Miami since his arrival, leading the team to unprecedented success...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-clock"></i> 2 hours ago</span>
+                            <span><i class="far fa-eye"></i> 15.2k views</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop" alt="Ronaldo News">
+                        <div class="news-category">Performance</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Ronaldo's Record-Breaking Season in Saudi Arabia</h3>
+                        <p>Cristiano Ronaldo continues to defy age with another stellar season...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-clock"></i> 5 hours ago</span>
+                            <span><i class="far fa-eye"></i> 12.8k views</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=250&fit=crop" alt="LeBron News">
+                        <div class="news-category">Injury Update</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>LeBron James Injury Update: Expected Return Date</h3>
+                        <p>The Lakers star's recovery is progressing well according to team sources...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-clock"></i> 8 hours ago</span>
+                            <span><i class="far fa-eye"></i> 9.5k views</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop" alt="Transfer News">
+                        <div class="news-category">Transfer News</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>Major Transfer Window: Top Players on the Move</h3>
+                        <p>This summer's transfer window is shaping up to be one of the most exciting...</p>
+                        <div class="news-meta">
+                            <span><i class="far fa-clock"></i> 1 day ago</span>
+                            <span><i class="far fa-eye"></i> 18.3k views</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Players Section -->
+    <section id="players" class="players-section">
+        <div class="container">
+            <h2>Top Players</h2>
+            <div class="players-grid">
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face" alt="Lionel Messi">
+                        <div class="player-stats">
+                            <span class="stat">Goals: 45</span>
+                            <span class="stat">Assists: 18</span>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Lionel Messi</h3>
+                        <p class="player-team">Inter Miami CF</p>
+                        <p class="player-position">Forward</p>
+                        <div class="player-rating">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="rating-text">5.0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Cristiano Ronaldo">
+                        <div class="player-stats">
+                            <span class="stat">Goals: 38</span>
+                            <span class="stat">Assists: 12</span>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Cristiano Ronaldo</h3>
+                        <p class="player-team">Al Nassr</p>
+                        <p class="player-position">Forward</p>
+                        <div class="player-rating">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="rating-text">4.9</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=200&h=200&fit=crop&crop=face" alt="LeBron James">
+                        <div class="player-stats">
+                            <span class="stat">Points: 28.5</span>
+                            <span class="stat">Rebounds: 8.2</span>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>LeBron James</h3>
+                        <p class="player-team">Los Angeles Lakers</p>
+                        <p class="player-position">Small Forward</p>
+                        <div class="player-rating">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="rating-text">4.8</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=face" alt="Kevin Durant">
+                        <div class="player-stats">
+                            <span class="stat">Points: 29.7</span>
+                            <span class="stat">Rebounds: 6.7</span>
+                        </div>
+                    </div>
+                    <div class="player-info">
+                        <h3>Kevin Durant</h3>
+                        <p class="player-team">Phoenix Suns</p>
+                        <p class="player-position">Power Forward</p>
+                        <div class="player-rating">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <span class="rating-text">4.7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams" class="teams-section">
+        <div class="container">
+            <h2>Popular Teams</h2>
+            <div class="teams-grid">
+                <div class="team-card">
+                    <div class="team-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Real Madrid</h3>
+                    <p>La Liga</p>
+                    <div class="team-stats">
+                        <span>Champions: 14</span>
+                        <span>League Titles: 35</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Barcelona</h3>
+                    <p>La Liga</p>
+                    <div class="team-stats">
+                        <span>Champions: 5</span>
+                        <span>League Titles: 27</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Manchester City</h3>
+                    <p>Premier League</p>
+                    <div class="team-stats">
+                        <span>Champions: 1</span>
+                        <span>League Titles: 9</span>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Los Angeles Lakers</h3>
+                    <p>NBA</p>
+                    <div class="team-stats">
+                        <span>Championships: 17</span>
+                        <span>Conference: 32</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About SportsNews</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>SportsNews is your premier destination for comprehensive coverage of sports players and their latest news. We provide real-time updates on transfers, injuries, performances, and achievements from athletes across all major sports.</p>
+                    <p>Our dedicated team of sports journalists and analysts work around the clock to bring you the most accurate and up-to-date information about your favorite players and teams.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>1M+</h3>
+                        <p>Monthly Readers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Players Covered</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>News Updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SportsNews</h3>
+                    <p>Your trusted source for sports players news and updates.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#news">Latest News</a></li>
+                        <li><a href="#players">Players</a></li>
+                        <li><a href="#teams">Teams</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Transfer News</a></li>
+                        <li><a href="#">Injury Updates</a></li>
+                        <li><a href="#">Match Reports</a></li>
+                        <li><a href="#">Player Interviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> info@sportsnews.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SportsNews. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
